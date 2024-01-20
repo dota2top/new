@@ -1,0 +1,44 @@
+header {
+  background-color: rgba(109, 108, 106, 0.701);
+    display: flex;}
+    ul{display: flex;}
+    li{list-style: none;
+    
+        margin: 30px 30px auto;
+        padding: 25px;
+        border-radius: 90px;
+    }
+a:hover{background-color: chartreuse;}
+    
+a{text-decoration: none; 
+    color: white;
+    font-size: 30px;
+    border-radius: 90px;
+    padding: 25px;
+}
+h1{text-align: center;
+font-size: 40px;
+color: rgb(21, 65, 210);}
+
+body{background-color: grey;}
+p{font-size: 30px;}
+h2{text-decoration: none; 
+    color: green;
+    font-size: 30px;
+    margin: auto;
+  
+}
+footer {
+    width: 100%; /* Ширина подвала */
+    background: linear-gradient(to right, rgb(71, 2, 62), rgb(0, 77, 128)); /* Градиентный фон подвала */
+    margin-top: 100px;
+  }
+  /* Стилизация контейнера */
+  .podval {
+    width: 80%; /* Ширина контейнера */
+    margin: 0 auto; /* Выравнивание контейнера по центру */
+    display: flex; /* Установка типа отображения контейнера как flex */
+    flex-direction: column; /* Установка направления элементов контейнера как вертикальное */
+    align-items: center; /* Выравнивание элементов контейнера по вертикали */
+    padding: 20px; /* Внутренние отступы контейнера */
+  }

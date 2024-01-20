@@ -1,0 +1,79 @@
+form {
+    
+    width: 400px;
+    
+    margin: 0 auto;
+    
+    padding: 20px;
+
+     
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    
+    color: blue;
+    
+    text-align: center;
+  }
+  
+  p {
+  
+    color: gray;
+  }
+  
+  label {
+  
+    font-weight: bold;
+  }
+  
+  input{
+    
+    width: 100%;
+  }
+  button{
+    
+    width: 100%;
+  }
+  
+  input[type="checkbox"] {
+    
+    width: 20px;
+  }
+  
+  button[type="submit"] {
+ 
+    background-color: green;
+
+    color: white;
+  }
+  button[type="submit"]:hover{
+    background-color: brown;
+  }
+  
+  a {
+   
+    color: blue;
+  }
+  
+  br {
+    
+     display: block;
+  }
+  header {
+    background-color: rgba(109, 108, 106, 0.701);
+      display: flex;}
+      footer {
+        width: 100%; /* Ширина подвала */
+        background: linear-gradient(to right, rgb(71, 2, 62), rgb(0, 77, 128)); /* Градиентный фон подвала */
+        margin-top: 300px;
+      }
+      /* Стилизация контейнера */
+      .podval {
+        width: 80%; /* Ширина контейнера */
+        margin: 0 auto; /* Выравнивание контейнера по центру */
+        display: flex; /* Установка типа отображения контейнера как flex */
+        flex-direction: column; /* Установка направления элементов контейнера как вертикальное */
+        align-items: center; /* Выравнивание элементов контейнера по вертикали */
+        padding: 20px; /* Внутренние отступы контейнера */
+      }

@@ -1,0 +1,32 @@
+h1{text-align: center;
+color: aqua;
+background-color: black;
+padding: 30px;
+border-radius: 90px;
+}
+body{background-color: darkgray;
+text-align: center;}
+li{list-style: none;
+
+}
+a{text-decoration: none;    color: aqua;
+font-size: 50px;}
+label{font-size: 40px;
+color: coral;
+
+border-radius: 90px;
+background-color: blue;}
+
+  footer {
+      width: 100%; /* Ширина подвала */
+      background: linear-gradient(to right, rgb(71, 2, 62), rgb(0, 77, 128)); /* Градиентный фон подвала */
+    }
+    /* Стилизация контейнера */
+    .podval {
+      width: 80%; /* Ширина контейнера */
+      margin: 0 auto; /* Выравнивание контейнера по центру */
+      display: flex; /* Установка типа отображения контейнера как flex */
+      flex-direction: column; /* Установка направления элементов контейнера как вертикальное */
+      align-items: center; /* Выравнивание элементов контейнера по вертикали */
+      padding: 20px; /* Внутренние отступы контейнера */
+    }
